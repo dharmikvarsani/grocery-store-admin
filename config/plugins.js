@@ -7,6 +7,10 @@ module.exports = ({ env }) => ({
           api_key: env("972785359645731"),
           api_secret: env("8dnBGPfBUXLLhu5VKlOqkMf4pZc"),
         },
+        actionOptions: {
+            upload: {},
+            delete: {},
+          },
       },
     },
   });
