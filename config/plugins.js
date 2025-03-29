@@ -3,9 +3,9 @@ module.exports = ({ env }) => ({
       config: {
         provider: "@strapi/provider-upload-cloudinary",
         providerOptions: {
-          cloud_name: env("drhlytkto"),
-          api_key: env("972785359645731"),
-          api_secret: env("8dnBGPfBUXLLhu5VKlOqkMf4pZc"),
+          cloud_name: env("CLOUDINARY_NAME"),  
+        api_key: env("CLOUDINARY_KEY"),     
+        api_secret: env("CLOUDINARY_SECRET"),
         },
         actionOptions: {
             upload: {},
