@@ -9,10 +9,4 @@ module.exports = [
   "strapi::session",
   "strapi::favicon",
   "strapi::public",
-  {
-    name: "strapi::upload",
-    config: {
-      provider: "@strapi/provider-upload-cloudinary",
-    },
-  },
 ];
